@@ -1,0 +1,12 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Swagger Petstore - OpenAPI 3.0",
+    "description": "This is a blank Swagger UI for ridecell_frontend_service. As the service contains no APIs, there are no endpoints defined.\n\nPlease add endpoints as more APIs are added to the microservice.",
+    "contact": {
+      "email": "frontend_team@ridecell.com"
+    },
+    "version": "1.0.11"
+  },
+  "paths": {}
+}

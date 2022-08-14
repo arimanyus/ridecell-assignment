@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% block body %}
+<head>
+  <link rel="stylesheet" href="../static/tracking_style.css">
+</head>
+<div class="container">
+    <article class="card">
+        <header class="card-header"> Book Tracking </header>
+        <div class="card-body">
+            <form action="/get_status" method="get">
+            <input type = "text" name = "shipment_id">
+            <br>
+            <input type = "submit" value = "Track">
+            </form>
+        </div>
+    </article>
+</div>
+{% endblock %}
